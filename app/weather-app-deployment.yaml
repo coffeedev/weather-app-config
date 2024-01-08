@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: weather-app
     spec:
       containers:
-      - image: geepidev/weather-app:latest
+      - image: geepidev/weather-app:arm_latest
         imagePullPolicy: Always
         name: weather-app
         ports:
